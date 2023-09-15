@@ -33,6 +33,10 @@
                 display: flex;
                 align-items: center;
                 padding-bottom: 44px;
+
+                @media(max-width: 768px) {
+                    display: block;
+                }
                 
                 &--left {
                     justify-content: left;
